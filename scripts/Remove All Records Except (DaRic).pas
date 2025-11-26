@@ -55,6 +55,8 @@ procedure SetIDList;
 		// Check INITIALISATION after this function to set script values for testing or to trigger the perform actions
 		// as well as hide or show progress messages.
 		// ====================
+		// These are all samples, just delete or modify all of these "sKeep.Add" lines and change them to what you need.
+		// Make sure to always begin with a sGroup line (like the one just below) before adding your editor id "sKeep.Add" list.
 		sKeep.Add(sGroup + 'TREE');
 		sKeep.Add('Falkreath_TreePineForest01');
 		sKeep.Add('Falkreath_TreePineForest01Dead');
@@ -85,26 +87,6 @@ procedure SetIDList;
 		sKeep.Add('Falkreath_TreePineForestSnowL04Dead');
 		sKeep.Add('Falkreath_TreePineForestSnowL05');
 		sKeep.Add('Falkreath_TreePineForestSnowL05Dead');
-		sKeep.Add('ArdbellOak01');
-		sKeep.Add('ArdbellOak02');
-		sKeep.Add('ArdbellOak03');
-		sKeep.Add('MossyOak01');
-		sKeep.Add('MossyOak02');
-		sKeep.Add('RainOak01');
-		sKeep.Add('RainOak02');
-		sKeep.Add('RainOak03');
-		sKeep.Add('RainOak04');
-		sKeep.Add('RainOak05');
-		sKeep.Add('RainOak06');
-		sKeep.Add('RainOakBlue01');
-		sKeep.Add('RainOakStubby01');
-		sKeep.Add('TheArchwood');
-		sKeep.Add('ThinOak01');
-		sKeep.Add('ThinOak02');
-		sKeep.Add('UnderOak01');
-		sKeep.Add('UnderOak02');
-		sKeep.Add('YharnaTree01');
-		sKeep.Add('YharnaTree02');
 		// ====================
 		// END OF USER ADDED EDITOR IDs
 		// ====================
